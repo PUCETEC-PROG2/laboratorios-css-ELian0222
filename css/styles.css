@@ -2,39 +2,82 @@
 
 /* Los estilos se aplican a todo el documento */
 body {
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.3),  rgba(136, 164, 172, 0.3) ),
-    url()
-    
+    background-image: 
+        linear-gradient(135deg, #244439, #BF8F65),
+        url("../assets/images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
 
+    
+    
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    
-        
+
+
 }
 
-.social-icon{
+header{
+    margin: 42px auto;
+    max-width: 800px;
+
+}
+
+header h1 {
+text-align: center;
+font-weight: 700;
+line-height: 15px;
+
+}
+
+.social-icon {
     width: 32px;
 }
 
-.sobre-mi{
+.box {
     max-width: 800px;
-    border-style:solid;
+    border-style: solid;
     border-radius: 20px;
     border-width: 1px;
     margin: auto;
-    padding: 20px;
-    background-image: linear-gradient(135deg, rgba(0, 0, 0, 0.8),  rgba(136, 164, 172, 0.3) ) 
+    margin-top: 24px;
+    padding: 0 16px 0 32px;
+    background-image: linear-gradient(135deg, rgba(80, 75, 75, 0.8), rgba(171, 202, 211, 0.3))
 }
 
 
-.sobre-mi h2{
+.box h2 {
     text-align: center;
 }
 
-.sobre-mi img {
+.box img {
     border-radius: 50%;
     width: 150px;
 
+}
+
+.profile {
+    text-align: center;
+}
+
+.social-icons {
+    list-style: none;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-icons img {
+    width: 48px;
+}
+
+footer{
+    margin: 32px auto;
+    max-width: 800px;
+    font-size: 10pt;
+    text-align: center;
 }
